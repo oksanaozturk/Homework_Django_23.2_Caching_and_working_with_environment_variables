@@ -1,4 +1,4 @@
-# HomeworkDjango 20.2 по теме Шаблонизация
+# HomeworkDjango 21.1 по теме FBV и CBV
 * Выведение всех продуктов на главную страницу через цикл {% for product in object_list %} / {% endfor %} в файле products_list.html
 
 * Постраничное выведение каждого продукта на отдельную страницу, через применение файла product_detail.html и контроллера product_detail (в views)
