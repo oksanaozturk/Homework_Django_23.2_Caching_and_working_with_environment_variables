@@ -3,13 +3,13 @@ from django.db import models
 
 # Данная переменная создается для того, чтобы применять её в данных, которые можно не заполнять (оставляьб пустым)
 # blank за возможность не заполнения этого поля при создании объекта, а null позволяет отображать нулевое значение в БД
-NULLABEL = {'blank': True, 'null': True}
+NULLABLE = {'blank': True, 'null': True}
 
 
 class Category(models.Model):
 
     name = models.CharField(max_length=100, verbose_name='Наименование')
-    description = models.TextField(verbose_name='Описание', **NULLABEL)
+    description = models.TextField(verbose_name='Описание', **NULLABLE)
 
     class Meta:
         verbose_name = 'Категория'
@@ -23,8 +23,8 @@ class Category(models.Model):
 class Product(models.Model):
 
     name = models.CharField(max_length=100, verbose_name='Наименование')
-    description = models.TextField(verbose_name='Описание', **NULLABEL)
-    preview = models.ImageField(upload_to='products_foto', verbose_name='Изображение', **NULLABEL)  # blank=True. null=True
+    description = models.TextField(verbose_name='Описание', **NULLABLE)  # blank=True. null=True
+    preview = models.ImageField(upload_to='products_foto', verbose_name='Изображение', **NULLABLE)
     # related_name говорит об отношении один ко многим (в одной категории м.б. несколько товаров).
     # М.Б. обращаться как category.products, а не category.product_set
     # on_delete показывает, что будет отображаться в поле при удалении категории, в данном случае ноль
