@@ -15,11 +15,11 @@
                 <!--            <img src="/media/{{ product.preview }}" alt="Product Image" class="Image fluid">-->
                 <img src="{{ object.preview|media_filter }}" alt="Product Image" class="Image fluid">
                 <div class="card-body">
-                    <p class="card-text">{{ object }}</p>
+                    <h4>{{ object }}</h4>
                     <div class="d-flex justify-content-between align-items-center">
                         <button type="button" class="btn btn-sm btn-outline-secondary"><a
-                                href="{% url 'blog:view' object.pk %}" class="text-black">Подробнее</a></button>
-                        <small class="text-body-secondary"> {{ object.is_published }} </small>
+                                href="{% url 'blog:view' object.slug %}" class="text-black">Подробнее</a></button>
+                        <small class="text-body-secondary"> {{ object.date_of_creation }} </small>
                     </div>
                 </div>
             </div>
