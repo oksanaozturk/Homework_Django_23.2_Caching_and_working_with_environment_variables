@@ -8,7 +8,11 @@
                 <div class="card">
                     <div class="card-header">
                         <h4 class="card-title">
-                            Добавление/ Редактирование продукта
+                            {% if object %}
+                            Редактирование продукта
+                             {% else %}
+                            Создание нового продукта
+                            {% endif %}
                         </h4>
                     </div>
                     <div class="card-body">
@@ -26,23 +30,23 @@
                     </div>
                 </div>
             </div>
-<!--            <div class="col-6">-->
-<!--                <div class="card">-->
-<!--                    <div class="card-header">-->
-<!--                        <h4 class="card-title">-->
-<!--                            Версии продукта-->
-<!--                        </h4>-->
-<!--                    </div>-->
-<!--                    <div class="card-body">-->
-<!--                        {{ formset.management_form }}-->
-<!--                        {% for form in formset.forms %}-->
-<!--                        {{ form.as_p }}-->
-<!--                        {% endfor %}-->
-<!--                    </div>-->
-<!--                    <div class="card-footer">-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">
+                            Версии продукта
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        {{ formset.management_form }}
+                        {% for form in formset.forms %}
+                        {{ form.as_p }}
+                        {% endfor %}
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+            </div>
         </form>
     </div>
 </div>
