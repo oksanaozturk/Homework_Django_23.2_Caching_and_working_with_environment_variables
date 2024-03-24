@@ -5,6 +5,7 @@
     <h1 class="display-6">Магазин домашних продуктов "Здоровье в ложке"</h1>
     <p class="lead">Все продукты, представленные в нашем магазине, это экологически чистые,
           свежие и всегда очень вкусные товары, выращенные и изготовленные в фермерском хозяйстве "Радость жизни".</p>
+    <a class="btn btn btn-outline-primary mt-4" href="{% url 'catalog:create' %}" role="button">Добавить Продукт</a>
 </div>
 
 <div class="container">
@@ -19,11 +20,13 @@
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-secondary"><a
-                                    href="{% url 'catalog:product_detail' product.pk %}" class="text-black">На
-                                продукт</a></button>
-                            <button type="button" class="btn btn-sm btn-outline-secondary">В Корзину</button>
+                                    href="{% url 'catalog:product_detail' product.pk %}" class="text-black">На продукт</a></button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                                    href="{% url 'catalog:update' product.pk %}" class="text-black">Редактировать</a></button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                                    href="{% url 'catalog:delete' product.pk %}" class="text-black">Удалить</a></button>
                         </div>
-                        <small class="text-body-secondary">Стоимость: {{ product.price }} руб</small>
+                        <small class="text-body-secondary">Цена: {{ product.price }} руб</small>
                     </div>
                 </div>
             </div>
