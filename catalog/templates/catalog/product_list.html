@@ -16,7 +16,8 @@
                 <!--            <img src="/media/{{ product.preview }}" alt="Product Image" class="Image fluid">-->
                 <img src="{{ product.preview|media_filter }}" alt="Product Image" class="Image fluid">
                 <div class="card-body">
-                    <p class="card-text">{{ product }}</p>
+                    <h4 class="card-text">{{ product }}</h4>
+                    <p class="card-text">Цена: {{ product.price }} руб</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-secondary"><a
@@ -26,7 +27,7 @@
                             <button type="button" class="btn btn-sm btn-outline-secondary"><a
                                     href="{% url 'catalog:delete' product.pk %}" class="text-black">Удалить</a></button>
                         </div>
-                        <small class="text-body-secondary">Цена: {{ product.price }} руб</small>
+                        <small class="text-body-secondary">Верия: {{ product.version.name }} {{ product.version.number | floatformat }}</small>
                     </div>
                 </div>
             </div>
