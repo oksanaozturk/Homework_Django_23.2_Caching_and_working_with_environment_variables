@@ -1,5 +1,7 @@
-from django.views.generic import TemplateView, ListView, DetailView
+from django.urls import reverse_lazy, reverse
+from django.views.generic import TemplateView, ListView, DetailView, CreateView, UpdateView, DeleteView
 
+from catalog.forms import ProductForm
 from catalog.models import Product
 
 
@@ -32,27 +34,31 @@ class ProductListView(ListView):
     """Класс для вывода страницы со всеми продуктами"""
     model = Product
 
-#  Старый контроллер FBV
-# def products_list(request):
-#     """Вывод страницу со всеми продуктами"""
-#     products = Product.objects.all()
-#     context = {
-#         'object_list': products
-#     }
-#     return render(request, 'catalog/products_list.html', context)
-
 
 class ProductDetailView(DetailView):
     """Класс для вывода страницы с одним продуктом по pk"""
     model = Product
 
-# def product_detail(request, pk):
-#     """Вывод страницы с одним продуктом по pk"""
-#
-#     # Возможно использовать get, но get_object_or_404 лучше
-#     # product = Product.objects.get(pk=pk)
-#     product = get_object_or_404(Product, pk=pk)
-#     context = {
-#         'object': product
-#     }
-#     return render(request, 'catalog/product_detail.html', context)
+
+class ProductCreateView(CreateView):
+    model = Product
+    # Добавляем формы. Заменяем fields на form_class
+    # fields = ('name', 'description', 'preview', 'category', 'price')
+    form_class = ProductForm
+    success_url = reverse_lazy('catalog:products_list')
+
+
+class ProductUpdateView(UpdateView):
+    model = Product
+    # Добавляем формы. Заменяем fields на form_class
+    # fields = ('name', 'description', 'preview', 'category', 'price')
+    form_class = ProductForm
+
+    def get_success_url(self):
+        return reverse('catalog:product_detail', args=[self.get_object().pk])
+        # ранее было args=[self.kwargs.get('pk')]
+
+
+class ProductDeleteView(DeleteView):
+    model = Product
+    success_url = reverse_lazy('catalog:products_list')
