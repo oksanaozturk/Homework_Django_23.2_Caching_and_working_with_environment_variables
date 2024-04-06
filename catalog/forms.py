@@ -72,13 +72,9 @@ class VersionForm(StyleFormMixin, ModelForm):
         fields = ("id", "product", "name", "number", "is_current")
 
 
-# Попытка выполнить допю задание: Валидацию, в которой при редактирование не даст добавить ещё одну активную форму
-# def clean_is_current(self):
-#     cleaned_data = self.cleaned_data['is_current']
-#     print(cleaned_data)
-# products = self.get_queryset()
-# for product in products:
-#     product.version = product.versions.filter(is_current=True).first()
-# if len(cleaned_data) > 1:
-#     raise ValidationError("У продукта может быть только одна активная версия")
-# return cleaned_data
+class ProductModeratorForm(StyleFormMixin, ModelForm):
+    """Класс создание форм для реализации функционала группы Moderator"""
+
+    class Meta:
+        model = Product
+        fields = ("description", "category", "is_published")
