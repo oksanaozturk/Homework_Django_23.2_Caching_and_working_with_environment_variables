@@ -51,16 +51,22 @@ class Product(models.Model):
     author = models.ForeignKey(
         User, verbose_name="Автор", on_delete=models.SET_NULL, blank=True, null=True
     )
-
+    is_published = models.BooleanField(default=False, verbose_name="Признак публикации")
     # manufactured_at = models.DateField(auto_now=True, verbose_name='Дата производства', **NULLABEL)
 
     # Необходимо для отображения модели на русскорм языке в административной панели
     class Meta:
         verbose_name = "Продукт"
         verbose_name_plural = "Продукты"
+        # сортировка по данному параметру. В кортежах и списках ставим запятую в конце!!!
         ordering = (
             "name",
-        )  # сортировка по данному параметру. В кортежах и списках ставим запятую в конце!!!
+        )
+        permissions = (
+            ('set_published', 'Can cancel publication of a product'),
+            ('change_description', 'Can change description'),
+            ('change_category', 'Can change category')
+        )
 
     def __str__(self):
         return self.name
@@ -83,10 +89,12 @@ class Version(models.Model):
     name = models.CharField(max_length=150, verbose_name="Название версии")
     is_current = models.BooleanField(default=True, verbose_name="Признак актуальности")
 
+
     class Meta:
         verbose_name = "Версия"
         verbose_name_plural = "Версии"
         ordering = ("name",)
+
 
     def __str__(self):
         return self.name
