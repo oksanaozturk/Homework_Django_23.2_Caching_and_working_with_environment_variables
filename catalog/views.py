@@ -1,10 +1,11 @@
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.forms import inlineformset_factory
+from django.http import HttpResponseForbidden
 from django.urls import reverse, reverse_lazy
 from django.views.generic import (CreateView, DeleteView, DetailView, ListView,
                                   TemplateView, UpdateView)
 
-from catalog.forms import ProductForm, VersionForm
+from catalog.forms import ProductForm, VersionForm, ProductModeratorForm
 from catalog.models import Product, Version
 
 
@@ -123,6 +124,23 @@ class ProductUpdateView(LoginRequiredMixin, UpdateView):
     # Добавляем формы. Заменяем fields на form_class
     # fields = ('name', 'description', 'preview', 'category', 'price')
     form_class = ProductForm
+
+    def get_form_class(self):
+        """Метод возвращающий форму для отображения в контроллере в зависимости от группы Пользователя"""
+        # Получаем пользователя
+        user = self.request.user
+        # 1-й вариант: может быть использовано, когда есть только ожна группа Модератор, без подгрупп
+        # if user.groups.filter(name='moderator').exists:
+        #     return ProductModeratorForm
+        # 2-й вариант:
+        perms = ("catalog.set_published", "catalog.change_description", "catalog.change_category")
+        if user == self.object.author:
+            return ProductForm
+
+        if user.has_perms(perms):
+            return ProductModeratorForm
+
+        raise HttpResponseForbidden
 
     def get_success_url(self):
         """Метод для определения пути, куда будет совершен переход после редактирования продкута"""
