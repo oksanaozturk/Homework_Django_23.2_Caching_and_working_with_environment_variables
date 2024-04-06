@@ -1,0 +1,1084 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-04-03T07:33:01.313Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "skypro.mytest@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-04-03T07:39:33.644Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "skypro.mytest@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-04-03T07:44:01.682Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "5",
+      "object_repr": "skypro.mytest@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-04-03T07:47:58.388Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "6",
+      "object_repr": "skypro.mytest@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-04-03T07:52:11.514Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "7",
+      "object_repr": "skypro.mytest@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-04-03T07:57:18.613Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "8",
+      "object_repr": "skypro.mytest@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-04-03T08:03:55.916Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "9",
+      "object_repr": "skypro.mytest@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-04-03T08:08:37.110Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "10",
+      "object_repr": "skypro.mytest@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-04-03T08:12:20.263Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "11",
+      "object_repr": "skypro.mytest@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-04-03T08:15:16.281Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "12",
+      "object_repr": "skypro.mytest@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-04-03T08:20:30.097Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "13",
+      "object_repr": "skypro.mytest@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-04-03T09:03:31.064Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "15",
+      "object_repr": "oksanaozturk@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2024-04-03T09:03:31.065Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "14",
+      "object_repr": "skypro.mytest@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2024-04-03T13:45:42.383Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "16",
+      "object_repr": "skypro.mytest@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2024-04-03T13:45:42.385Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "test1@sky.pro",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2024-04-03T14:32:48.852Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "17",
+      "object_repr": "skypro.mytest@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2024-04-06T05:27:24.412Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Moderator",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2024-04-06T05:34:53.358Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "31",
+      "object_repr": "Test5",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2024-04-06T05:36:28.722Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "31",
+      "object_repr": "Test5",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2024-04-06T06:35:53.220Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Moderator",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add Категория",
+      "content_type": 7,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change Категория",
+      "content_type": 7,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete Категория",
+      "content_type": 7,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view Категория",
+      "content_type": 7,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Продукт",
+      "content_type": 8,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Продукт",
+      "content_type": 8,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Продукт",
+      "content_type": 8,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Продукт",
+      "content_type": 8,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Версия",
+      "content_type": 10,
+      "codename": "add_version"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Версия",
+      "content_type": 10,
+      "codename": "change_version"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Версия",
+      "content_type": 10,
+      "codename": "delete_version"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Версия",
+      "content_type": 10,
+      "codename": "view_version"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Публикация",
+      "content_type": 9,
+      "codename": "add_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Публикация",
+      "content_type": 9,
+      "codename": "change_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Публикация",
+      "content_type": 9,
+      "codename": "delete_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Публикация",
+      "content_type": 9,
+      "codename": "view_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add Пользоаптель",
+      "content_type": 11,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change Пользоаптель",
+      "content_type": 11,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete Пользоаптель",
+      "content_type": 11,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view Пользоаптель",
+      "content_type": 11,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can cancel publication of a product",
+      "content_type": 8,
+      "codename": "set_published"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change description",
+      "content_type": 8,
+      "codename": "change_description"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can change category",
+      "content_type": 8,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "Moderator",
+      "permissions": [
+        43,
+        42,
+        41
+      ]
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "catalog",
+      "model": "category"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "catalog",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "blog",
+      "model": "blog"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "catalog",
+      "model": "version"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "users",
+      "model": "user"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "2ibsi3jpd67jefq0ci2ofof0o2ic5f2n",
+    "fields": {
+      "session_data": ".eJxVjDsOwyAQRO9CHSEv5peU6XMGtMASnEQgGbuKcvdgyYVdzrw382UO1yW7tdHspshuDNjl2HkMbyobiC8sz8pDLcs8eb4pfKeNP2qkz313TwcZW-5rVOY6SADhtYZAPZE1gYJSkcRoh9Gg8R1KKbRNYEh3N0X0gElIJdnvD8WfNz0:1rbmDN:zrtDRiuFVZAtOiVYnSNpvY2yfiAbXWDC1NIfzuPIw4o",
+      "expire_date": "2024-03-03T18:48:37.452Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "4cv53ve5inefrzhfwwgy7jpwfjoopbjb",
+    "fields": {
+      "session_data": ".eJxVjDsOwyAQRO9CHSEv5peU6XMGtMASnEQgGbuKcvdgyYVdzrw382UO1yW7tdHspshuDNjl2HkMbyobiC8sz8pDLcs8eb4pfKeNP2qkz313TwcZW-5rVOY6SADhtYZAPZE1gYJSkcRoh9Gg8R1KKbRNYEh3N0X0gElIJdnvD8WfNz0:1rlOwe:UTo9mVcka1wiHLJTF7iTCLG67CwnvH4KnzdYnjuVOvA",
+      "expire_date": "2024-03-30T07:59:08.428Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "8f9r4o7zn5zabj2x3ifzzchvm8yfx53f",
+    "fields": {
+      "session_data": ".eJxVjDsOwyAQRO9CHSEv5peU6XMGtMASnEQgGbuKcvdgyYVdzrw382UO1yW7tdHspshuDNjl2HkMbyobiC8sz8pDLcs8eb4pfKeNP2qkz313TwcZW-5rVOY6SADhtYZAPZE1gYJSkcRoh9Gg8R1KKbRNYEh3N0X0gElIJdnvD8WfNz0:1rk7e5:HLGwkdClmgi-IytDB_m9yoWH2cuFf1ej8QS9KeURAHg",
+      "expire_date": "2024-03-26T19:18:41.226Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "9p6acq3rcya50bx1y3l9n1tvmlwrip98",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAUBf-FtSFA4RZcuvcbmvugUjWQ9LEy_rs26UK3Z2bOSw24rWXYljwPk6izsr06_Y6E_Mh1J3LHemuaW13nifSu6IMu-tokPy-H-3dQcCnf2gewDMjWxzFhAC-cEzmC2BvpzOggYefQGkNInQQCQR6d98FEARfV-wMGdTf1:1rs0yt:vPULCYCQ4be5yWU8hB4EMZivx0P-x-Q7CQQrk2pczus",
+      "expire_date": "2024-04-17T13:48:47.283Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ee4rtzugcqenyce2rmbehwvjm5wadkjl",
+    "fields": {
+      "session_data": ".eJxVjE0OwiAYRO_C2hAoLVCX7j0D4ftBqgaS0q6Md1eSLnQ3mfdmXiLEfcthb7yGhcRZaC9OvyVEfHDphO6x3KrEWrZ1AdkVedAmr5X4eTncv4McW_6uPTDjzHHoAZIyPNGojbPDiAlwAsOGWEO0XpmUiFmrOWlM1iEpcOL9AVFvOeQ:1rs1he:rb85WMK73aO1REaWfQCh5WZjmhi5m_GykINw2z5oeXc",
+      "expire_date": "2024-04-17T14:35:02.399Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "jqh2t3plx34upswx3fwy7kcfp2t8lm03",
+    "fields": {
+      "session_data": ".eJxVjEEOgjAQRe_StWmmpaWDS_eegUxnOoIaSCisjHdXEha6_e-9_zI9bevQb7Us_SjmbFwyp98xEz_KtBO503SbLc_TuozZ7oo9aLXXWcrzcrh_BwPV4VujNJyUFABT00jBwC2hgibOMUJEH12XgxYBD-rFIQIKS2ophi6oeX8AEVw4Fw:1rs1Fp:UXUlvOBMMQOVJ2X0uQkI0FAHbu0mEkTD4V0bLI_jjgM",
+      "expire_date": "2024-04-17T14:06:17.751Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "lo5nule45gc57u2qhkswr3aaekykh3ck",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSFDizxcuu83kGEYpGogKe3K-O_apAvd3nPOfYmA21rC1nkJcxIXoZw4_Y4R6cF1J-mO9dYktbouc5S7Ig_a5dQSP6-H-3dQsJdvbTQQY0bO1oIHBmfAZhd15LNT4LIeCJwfaQSblPaGKLO2o2VMMGAU7w8NrDg5:1rs1w1:YAmGVoeBB_tU1TSrYrg-Rpfo82YvoUeFMimpzIa30Hc",
+      "expire_date": "2024-04-17T14:49:53.138Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "nup0daar28fue20fzkrx6kv6poeisw4q",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-BTuU9DmD5fXu4gCypTipEHeHSCmgfTPzXiKmbS1x67TEGcVFaHH63SDlB9Ud4D3VW5O51XWZQe6KPGiXU0N6Xg_376CkXr61xXAOqIM22oycHHibBswETOAVgHYqhOwUB1bojHIaGD2wHR0RD168P-oDOF8:1rsyHQ:eFE59IUioQqjF4IW574Z8RIjzD1Ax9p2qWIU1jG6p1A",
+      "expire_date": "2024-04-20T05:07:52.835Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "pvfi3s7r4n5oenmmwvxua6b9y12scrqj",
+    "fields": {
+      "session_data": ".eJxVjEsOwjAMBe-SNYpK7SQNS_Y9Q2THDi2gVOpnhbg7VOoCtm9m3ssk2tYhbYvOaRRzMedgTr8jU35o3Yncqd4mm6e6ziPbXbEHXWw_iT6vh_t3MNAyfOu2icAeS1tcoA4YM8SO1JPmqIyoWECbzoE0EgA5owcWceIyKPtg3h8RhTif:1rs16C:2ai3oaDW6zGTYBhf2ivkxXG4IgP6THf_fVf78b1b5RU",
+      "expire_date": "2024-04-17T13:56:20.628Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "umtm2c5af4892rj6i0fh6bhkptfelkwa",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pAZWgbq0r1nIANDbdVAUtqV8e7apAvd_vfef6nA2zqFreUlzKLOCr06_Y6R0yOXncidy63qVMu6zFHvij5o09cq-Xk53L-Didv0rQmiIeyQPGFyPRGYcbSR0EMvSRwM4KIRgQzYCQtZIJ8HJmRi2xv1_gDW_jcD:1rs1n2:CsLVu7HXVogsVQT3rKj7cmuVB80S3_LYy00KoupZc38",
+      "expire_date": "2024-04-17T14:40:36.578Z"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Фрукты",
+      "description": "Категория Фрукты"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Овощи",
+      "description": "Категория Овощи"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "name": "Молочные продукты",
+      "description": "Категория Молочные продукты"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 21,
+    "fields": {
+      "name": "Яблоки 1 кг",
+      "description": "Яблоки 1 кг, кисло-сладкие",
+      "preview": "products_foto/elma.jpeg",
+      "category": 1,
+      "price": 46,
+      "date_of_creation": "2024-02-25",
+      "last_modified_date": "2024-03-25",
+      "view_counter": 1,
+      "author": null,
+      "is_published": false
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 22,
+    "fields": {
+      "name": "Картофель 1 кг",
+      "description": "Картофель 1 кг, высокий процент содержания крахмала",
+      "preview": "products_foto/potateis.jpg",
+      "category": 2,
+      "price": 33,
+      "date_of_creation": "2024-02-25",
+      "last_modified_date": "2024-03-24",
+      "view_counter": 4,
+      "author": null,
+      "is_published": false
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 23,
+    "fields": {
+      "name": "Молоко 1л",
+      "description": "Молоко 1л, жирность 3,2%",
+      "preview": "products_foto/milk.png",
+      "category": 3,
+      "price": 45,
+      "date_of_creation": "2024-02-25",
+      "last_modified_date": "2024-03-24",
+      "view_counter": 2,
+      "author": null,
+      "is_published": false
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 24,
+    "fields": {
+      "name": "Кефир 1 л",
+      "description": "Кефир 1 л, жирность 1%",
+      "preview": "products_foto/kefir.jpg",
+      "category": 3,
+      "price": 54,
+      "date_of_creation": "2024-02-25",
+      "last_modified_date": "2024-04-01",
+      "view_counter": 10,
+      "author": null,
+      "is_published": false
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 1,
+    "fields": {
+      "product": 24,
+      "number": 1,
+      "name": "Test",
+      "is_current": false
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 3,
+    "fields": {
+      "product": 22,
+      "number": 1,
+      "name": "Test",
+      "is_current": false
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 4,
+    "fields": {
+      "product": 23,
+      "number": 1,
+      "name": "Test",
+      "is_current": true
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 5,
+    "fields": {
+      "product": 21,
+      "number": 1,
+      "name": "Test",
+      "is_current": true
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 6,
+    "fields": {
+      "product": 24,
+      "number": 1,
+      "name": "Релиз",
+      "is_current": true
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 7,
+    "fields": {
+      "product": 22,
+      "number": 1,
+      "name": "Релиз",
+      "is_current": true
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 6,
+    "fields": {
+      "title": "Польза яблок для организма",
+      "slug": "polza-yablok-dlya-organizma",
+      "content": "Полезное яблоко содержит: вода — 80-90%; клетчатка — 0,6%; сахар — 5-15%; каротин; пектин — 0,27%; крахмал — 0,9%; фолиевая и органические кислоты; витамины — А, В1, В2, В3, С, Е, Р, РР, К; микроэлементы — натрий, фосфор, калий, сера, медь, цинк, кальций, алюминий, фтор, хром, железо, магний, молибден, никель, бор, ванадий, марганец.",
+      "preview": "blog_foto/1oEh7zttJsc.jpg",
+      "date_of_creation": "2024-03-16",
+      "is_published": true,
+      "view_counter": 14
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 7,
+    "fields": {
+      "title": "Груша – можно и нужно скушать!!!",
+      "slug": "grusha-mozhno-i-nuzhno-skushat",
+      "content": "В плодах груш содержатся практически все полезные вещества: витамины – А, С, Е, Н, К, РР, группы В; макроэлементы (такие как кальций, магний, натрий, калий, фосфор, хлор, сера), микроэлементы (железо, цинк, йод и т. д.), органические кислоты, эфирные масла, флавоноиды, фитонциды и другие биологически активные вещества.\r\n\r\nГруши кажутся слаще яблок, но это обманчиво – в яблоках просто больше кислоты, поэтому груша вполне подходит для тех, кто желает похудеть. Из груш варят компоты, варенье, джем, цукаты, их даже солят (для этого лучше всего подходят дички).\r\n\r\nОтвары и компоты из сушеных груш не только вкусны, но и необычайно полезны. В них содержатся танины – вещества, обладающие вяжущим эффектом, что полезно при расстройствах кишечника, особенно у детей. В то же время если съесть несколько вареных груш из компота, то это поможет при такой неприятности, как запор. Грушевые компоты также полезны при воспалительных заболеваниях мочевыводящих путей.\r\n\r\nВ грушах содержится много калия – это полезно при нарушениях сердечной деятельности, бессоннице, повышенном уровне холестерина в крови.\r\n\r\nОрганические кислоты, находящиеся в плодах груш, улучшают пищеварение, обмен веществ, стимулируют деятельность почек и печени. При анемии полезен такой десерт: крупные спелые груши очистить от кожуры и размять, добавив ложку меда.\r\n\r\nЭфирные масла, содержащиеся в грушах, повышают защитные силы организма, оказывают противовоспалительное действие.\r\n\r\nПри этом грушу можно отнести к диетическим продуктам, в 100 г фрукта содержится всего 40 ккал.\r\n\r\nИсточник: Здоровое-питание.рф",
+      "preview": "blog_foto/3521dbeeead9ad85987b8d13f9974cda.jpeg",
+      "date_of_creation": "2024-03-16",
+      "is_published": true,
+      "view_counter": 8
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 8,
+    "fields": {
+      "title": "14 Интересных фактов о картофеле!",
+      "slug": "14-interesnyh-faktov-o-kartofele",
+      "content": "Картофель является частью обычного рациона для большинства из нас, и мы едим его почти каждый день, особо не задумываясь о том, что это такое. Количество блюд, в состав которых входит картофель, бесконечно велико, и трудно переоценить пользу, которую этот корнеплод принес всему миру. Для многих народов картофель является неизменным элементом рациона и практически всегда присутствует на столе. Что вы знаете о картофеле? Мы расскажем вам 14 интересных фактов о нем, и если вам есть что добавить, обязательно оставьте свой комментарий под этим постом!\r\n\r\n1) Существуют музеи, посвященные картофелю. Самый известный \"картофельный\" музей находится в Бельгии.\r\n2) В прошлом в некоторых тропических островных странах картофель служил эквивалентом денег.\r\n3) В столице Республики Беларусь есть памятник картофелю.\r\n4) В мире существует два сорта голубого картофеля.\r\n5) Самый дорогой картофель в мире выращивают на острове Нуармутье (Франция). Стоимость килограмма этого сорта картофеля составляет около пятисот евро.\r\n6) Первыми картофель начали выращивать индейцы, жившие четыре тысячи лет назад на территории современного Перу. Они вывели около двухсот различных сортов картофеля.\r\n7) В картофеле содержится примерно 4/5 воды. Точное значение зависит от сорта.\r\n8) Картофель - первый корнеплод, когда-либо выращенный в условиях невесомости. Этот эксперимент был проведен в 1995 году на американской космической станции Колумбия.\r\n9) Республика Беларусь занимает первое место в мире по производству картофеля на душу населения.\r\n10) Самая крупная картофелина, когда-либо выращенная, весила около 8 килограммов.\r\n11) Если вы съедите хотя бы одну ягоду картофеля, вы можете отравиться.\r\n12) Родиной картофеля считается Южная Америка.\r\n13) Картофель был завезен в Европу в конце 16 века, но до конца 18 века европейцы его практически не ели. Существовало даже поверье, что картофель вызывает проказу.\r\n14) В конце 19 века на Аляске, охваченной золотой лихорадкой, картофель стоил дороже золота. Это было связано с тем, что среди золотоискателей свирепствовала цинга, а картофель является отличным средством борьбы с этим заболеванием.",
+      "preview": "blog_foto/blobid1565421423269.jpg",
+      "date_of_creation": "2024-03-16",
+      "is_published": true,
+      "view_counter": 9
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 9,
+    "fields": {
+      "title": "Test",
+      "slug": "test",
+      "content": "Test",
+      "preview": "blog_foto/scale_1200.jpg",
+      "date_of_creation": "2024-03-16",
+      "is_published": false,
+      "view_counter": 2
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 10,
+    "fields": {
+      "title": "Test2",
+      "slug": "test2",
+      "content": "Test2",
+      "preview": "blog_foto/1675286391_gas-kvas-com-p-test-art-risunki-34.png",
+      "date_of_creation": "2024-03-17",
+      "is_published": false,
+      "view_counter": 6
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$MWkUOfMEuxwf58v2pgmr2W$9K0nf+4+2uL+G289cSLOTijW6L1kIFZ9bgcdRHedGgs=",
+      "last_login": "2024-04-06T05:07:52.834Z",
+      "is_superuser": true,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-03-31T15:46:00.449Z",
+      "avatar": "",
+      "phone_number": null,
+      "country": null,
+      "email": "admin@sky.pro",
+      "token": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 18,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$7u8CeSOalbCPon5JiCL71p$Ef+CNqreAIcsNjn0MhPVeBpYVeIBrrm3EmNUMdFlqxk=",
+      "last_login": "2024-04-03T19:43:27.265Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-04-03T14:33:57.821Z",
+      "avatar": "",
+      "phone_number": null,
+      "country": null,
+      "email": "skypro.mytest@yandex.ru",
+      "token": "c2c35ec5c0f2f7808a334ec6348f332a",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
