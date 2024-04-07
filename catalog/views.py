@@ -7,6 +7,7 @@ from django.views.generic import (CreateView, DeleteView, DetailView, ListView,
 
 from catalog.forms import ProductForm, VersionForm, ProductModeratorForm
 from catalog.models import Product, Version
+from catalog.services import get_products_from_cache
 
 
 class ContactsTemplateView(TemplateView):
@@ -26,6 +27,13 @@ class ProductListView(ListView):
     """Класс для вывода страницы со всеми продуктами"""
 
     model = Product
+
+    def get_queryset(self):
+        """Переопределяем работу метода (он получает данные из БД), для функционирования кеша,
+        теперь она будет выводить данные, полученные при отработке функции get_products_from_cache"""
+
+        queryset = get_products_from_cache()
+        return queryset
 
     def get_context_data(self, *args, **kwargs):
         """Метод для получения версий Продукта и вывода только активной версии"""
