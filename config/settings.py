@@ -173,3 +173,24 @@ EMAIL_USE_SSL = True
 # Дополнительные настройки для всех почтовых сервисов
 SERVER_EMAIL = EMAIL_HOST_USER
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+# Настройка кеша для проекта в Django
+
+# Флаг, который отвечает за глобальное состояние работоспособности кеша
+CACHE_ENABLED = True
+
+# "BACKEND": — бэкенд для обработки кеша и работы с хранилищем.
+# "LOCATION":  — месторасположение хранилища.
+# Если КЭШ работает, то
+if CACHE_ENABLED:
+    CACHES = {
+        "default": {
+            "BACKEND": "django.core.cache.backends.redis.RedisCache",  # Прописываем путь до RedisCache
+            "LOCATION": "redis://127.0.0.1:6379",  # Где лежит redis
+            # "LOCATION": "redis://localhost:6379",
+        }
+    }
+
+# Подключение к брокеру может быть закрыто авторизацией,
+# поэтому настройки могут меняться и строка Location может выглядеть следующим образом:
+# redis://username:password@127.0.0.1:6379
