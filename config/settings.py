@@ -89,11 +89,11 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",  # django.db.backends.postgresql /
         # django.db.backends.postgresql_psycopg2
-        "NAME": "django_project",
-        "USER": "postgres",
-        # 'HOST': '127.0.0.1',  # Можно не писать, если стандартный localhost
-        # 'PORT': 3452,  # Можно не писать, если стандартный
-        "PASSWORD": os.getenv("DATABASE_PASSWORD"),  # os.getenv('PASSWORD_POSTGRESQL')
+        "NAME": os.getenv("POSTGRES_DB"),
+        "USER": os.getenv("POSTGRES_USER"),
+        'HOST': os.getenv("POSTGRES_HOST"),  # Можно не писать, если стандартный localhost
+        'PORT': os.getenv("POSTGRES_PORT"),  # Можно не писать, если стандартный
+        "PASSWORD": os.getenv("POSTGRES_PASSWORD"),  # os.getenv('PASSWORD_POSTGRESQL')
     }
 }
 
@@ -186,8 +186,9 @@ if CACHE_ENABLED:
     CACHES = {
         "default": {
             "BACKEND": "django.core.cache.backends.redis.RedisCache",  # Прописываем путь до RedisCache
-            "LOCATION": "redis://127.0.0.1:6379",  # Где лежит redis
-            # "LOCATION": "redis://localhost:6379",
+            "LOCATION": os.getenv("REDIS_HOST"),  # Где лежит redis
+            # "LOCATION": "redis://127.0.0.1:6379",
+            # "TIMEOUT": 300  # Ручная регулировка времени жизни кеша в секундах, по умолчанию 300
         }
     }
 
