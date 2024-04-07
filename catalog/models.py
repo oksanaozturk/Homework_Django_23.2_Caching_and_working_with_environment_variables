@@ -89,12 +89,10 @@ class Version(models.Model):
     name = models.CharField(max_length=150, verbose_name="Название версии")
     is_current = models.BooleanField(default=True, verbose_name="Признак актуальности")
 
-
     class Meta:
         verbose_name = "Версия"
         verbose_name_plural = "Версии"
         ordering = ("name",)
-
 
     def __str__(self):
         return self.name
