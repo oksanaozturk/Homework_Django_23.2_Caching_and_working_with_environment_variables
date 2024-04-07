@@ -12,3 +12,24 @@
 
 *Задание 2
 Реализуйте решение, которое проверит, что редактирование продукта доступно только его владельцу.
+
+* Рекомендации от Наставника:
+  Ты также можешь проверять принадлженость к группе в контролере используя userPassesTestMixin
+
+Пример
+
+from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
+
+
+def is_manager(user):
+    return user.groups.filter(name='Managers').exists()
+
+
+
+class MyView(LoginRequiredMixin, UserPassesTestMixin, View):
+
+    login_url = '/login/'
+    redirect_field_name = 'redirect_to'
+
+    def test_func(self):
+	        return is_manager(self.request.user)
