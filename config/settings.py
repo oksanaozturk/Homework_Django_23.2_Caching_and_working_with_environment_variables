@@ -91,8 +91,8 @@ DATABASES = {
         # django.db.backends.postgresql_psycopg2
         "NAME": os.getenv("POSTGRES_DB"),
         "USER": os.getenv("POSTGRES_USER"),
-        'HOST': os.getenv("POSTGRES_HOST"),  # Можно не писать, если стандартный localhost
-        'PORT': os.getenv("POSTGRES_PORT"),  # Можно не писать, если стандартный
+        # 'HOST': os.getenv("POSTGRES_HOST"),  # Можно не писать, если стандартный localhost
+        # 'PORT': os.getenv("POSTGRES_PORT"),  # Можно не писать, если стандартный
         "PASSWORD": os.getenv("POSTGRES_PASSWORD"),  # os.getenv('PASSWORD_POSTGRESQL')
     }
 }
